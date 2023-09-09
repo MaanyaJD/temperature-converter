@@ -1,0 +1,41 @@
+@font-face {
+font-family: 'Petrona', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Petrona:wght@200&display=swap');
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    background-image: url('bsimage.jpg');
+    /* background-color: azure; */
+}
+.converter{
+    margin-top: 23px;
+    border: 1px solid black;
+    width: 112%;
+    height: 171px;
+    background-color:rgb(255, 255, 231);
+    box-shadow: 5px 5px rgb(203, 200, 200);
+    margin-left: -17px;
+}
+
+h1 {
+ margin-bottom: 20px;
+ font-family: 'Petrona', serif;
+ text-decoration: underline;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    font-weight: bold;
+}
+h2{
+    font-family: 'Petrona', serif;
+}
