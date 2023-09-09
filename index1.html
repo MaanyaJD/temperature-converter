@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Petrona:wght@200&display=swap');
+      </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="animate-charcter">Temperature Converter</h1>
+        <div class="converter">
+            <h2>Please Enter the temperature</h2><br>
+            <input type="number" id="temperature" placeholder="Enter temperature">
+            <select id="unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
